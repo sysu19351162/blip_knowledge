@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f7eb5c3-e55c-4ac0-b201-c74bd6d21ae3" name="blip_new (project level)">
+        <fileTransfer accessType="SFTP" host="121.46.19.2" port="20835" sshConfigId="bc06a394-ea90-477e-92d1-7ecbcdbad259" sshConfig="yangzhenbang@121.46.19.2:20835" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

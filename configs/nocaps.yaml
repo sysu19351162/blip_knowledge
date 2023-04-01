@@ -1,0 +1,25 @@
+image_root: '/data1/yangzhenbang_new/datasets/nocaps/'
+ann_root: 'annotation'
+
+# set pretrained as a file path or an url
+#pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_caption_capfilt_large.pth'
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large.pth'
+#vit: 'base'
+batch_size: 32
+
+image_size: 384
+
+max_length: 20
+min_length: 5
+num_beams: 3
+
+
+vit: 'large'
+batch_size_train: 16
+batch_size_test: 32
+vit_grad_ckpt: True
+vit_ckpt_layer: 10
+init_lr: 5e-6
+
+
+prompt: 'a picture of '

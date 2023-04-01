@@ -1,0 +1,45 @@
+# train_file: ['/home/zhuhg/dataset/product1M/json/train_id_info.json']
+
+#train_file: ['/data1/yangzhenbang_new/blip/BLIP/annotation/coco_karpathy_train_pretrain.json',
+#             '/data1/yangzhenbang_new/blip/BLIP/annotation/vg_caption.json',
+#             ]
+train_file: ['/data1/yangzhenbang_new/datasets/blip_caption/cc3m_entity.json',
+             ]
+image_knowledge: [
+             ]
+
+#image_root: '/data5/DX_SCALE_grad_model/test_tmp_imag/test_img' #'/home/zhuhg/dataset/M5product/data3/test_images'
+## '/home/zhuhg/dataset/M5product/data3/test_images'
+#test_image_root: '/data5/DX_SCALE_grad_model/test_tmp_imag/test_img' #'/home/zhuhg/dataset/product1M/test_images'
+laion_path: ''
+image_root: ''
+cc3m_path: '/data/datasets/cc3m/images'
+#dataset: 'product'
+
+# size of vit model; base or large
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+
+image_size: 224
+batch_size_train: 200
+batch_size_test: 4
+
+# optimizer
+weight_decay: 0.05
+init_lr: 2e-4
+min_lr: 1e-6
+warmup_lr: 1e-6
+lr_decay_rate: 0.9
+max_epoch: 10
+warmup_steps: 3000
+
+k_test: 128
+
+max_len: 30
+
+# knowledge
+knowledge_num: 1
+fix_blip: false
+
+max_words: 200
