@@ -8,7 +8,7 @@ dataset: 'coco'
 pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth'
 
 knowledge: '/data1/yangzhenbang_new/datasets/blip_caption/data_flickr_coco_vg/ChatGPT_kg_dict.json'
-
+#knowledge: '/home/xuhang/chenjiaqi/project/blip/kg_data/ChatGPT_kg_dict.json'
 # size of vit model; base or large
 vit: 'base'
 batch_size_train: 16
