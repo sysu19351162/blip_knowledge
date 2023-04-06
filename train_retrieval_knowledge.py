@@ -85,7 +85,8 @@ def evaluation(model, data_loader, device, config):
 
     knowledge_outputs=[]
     num_text = len(texts)
-    text_bs = 256
+    # text_bs = 256
+    text_bs = 64
     text_ids = []
     text_embeds = []  
     text_atts = []
